@@ -1,0 +1,225 @@
+
+#title{
+  background-color:#5a9efc;
+  color: white;
+}
+.Heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 4% 15% 5% ;
+}
+.Iphone:hover{
+  background: #474747 ;
+}
+body{
+  font-family:  'Montserrat', sans-serif;
+}
+.ecg{
+position:relative;
+top:5px;
+left:5px;
+  width:60px;
+}
+/* Navbar CSS */
+.navbar-brand{
+font-size: 2em;
+font-family: 'Poppins';
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+font-size: 1.3em;
+}
+.button{
+margin:5% 3% 5% 0;
+}
+.Title-img{
+  transform: rotate(23deg);
+  position: absolute;
+  width: 250px;
+  right:20%;
+}
+
+
+
+/* Feature */
+#features{
+  padding: 5% 12% 7%;
+  background: white;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+  font-weight:600;
+}
+.feature-content{
+  color: #8f8f8f;
+}
+.feature-img{
+  color: #7FB5FF;
+  margin-bottom: 1rem;
+}
+.feature-img:hover{
+  color: #5C7AEA;
+
+}
+.logo:hover,h1:hover{
+  color:  #C4DDFF;
+}
+
+
+
+
+
+#testimonials{
+
+  text-align:center;
+  font-weight:600;
+  background:#5C7AEA;
+  color: #ffff;
+
+}
+#press{
+  background-color: #5C7AEA;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.test-img{
+  width: 150px;
+  padding: 1em;
+}
+.press-img{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.press-img1{
+  width:5%;
+  margin:20px 20px 50px;
+}
+h2{
+  font-size: 50px;
+}
+.carousel-item{
+  padding:5% 15% 3%;
+}
+
+
+
+/* Pricing Section */
+ .btn-color{
+   background-color: #5C7AEA;
+   color: white;
+ }
+ #pricing{
+   text-align: center;
+   padding: 7% 12%;
+ }
+ .card{
+   padding-left: 5%;
+   padding-right: 5%;
+}
+.card-header{
+  background: white;
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
+ /* Call to Action  */
+ #cta{
+   text-align: center;
+   padding: 5% 12% 3%;
+   background-color: #7FB5FF;
+   font-size: 50px;
+   font-weight: bolder;
+   color: white;
+ }
+
+#footer{
+  text-align: center;
+  padding: 5% 12% 3%;
+}
+
+.footer-social-media{
+  text-align: center;
+  padding: 3% 12% 3%;
+}
+.footer-logo{
+  margin: 2%;
+  color:#4682B4;
+}
+.Copyright{
+  color:#4682B4;
+}
+.rangoli-1{
+
+  top:5%;
+  width:300px;
+}
+.rangoli-2{
+  position:absolute;
+  bottom:5%;
+}
+@media (max-width:1028px) {
+
+  .Title-img{
+  position: static;
+    transform: rotate(0deg);
+    width:250px;
+padding-left: 60px;
+  }
+  .ecg{
+  position:relative;
+  top:3.75px;
+  left:3.75px;
+    width:30px;
+  }
+  /* Navbar CSS */
+  .navbar-brand{
+  font-size: 1.5em;
+  font-family: 'Poppins';
+  }
+.Heading{
+font-size: 30px;
+}
+h3{
+  font-size: 15px;
+}
+h2{
+  font-size:20px;
+}
+#testimonials{
+  font-size: 15px;
+}
+#pricing{
+  text-align: center;
+  padding: 7% 12%;
+
+}
+.container-fluid{
+  padding: 4% 8% 5% ;
+}
+.button{
+margin:5% 0% 5% 2%  ;
+}
+#cta{
+  text-align: center;
+  padding: 5% 12% 3%;
+  background-color: #7FB5FF;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+}
